@@ -1,2 +1,2 @@
-# ted-lasso-shop-casestudy
+# Ted Lasso Shop Case Study
  Case study for web development
