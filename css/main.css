@@ -8,6 +8,11 @@ html {
     box-sizing: inherit;
   }  
 
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
   .container {
     position: relative;
     text-align: center;
@@ -44,6 +49,12 @@ h2.believe {
   text-align: center;
 }
 
+h2.nws-header {
+  color: white;
+  font-size: 30px;
+  line-height: 27px;
+}
+
 h3 {
   font-family: var(--font-Jost);
   margin: 15px 10px;
@@ -55,11 +66,33 @@ h4 {
   font-size: 32px;
 }
 
+h5 {
+  font-family: var(--font-Warner);
+  font-weight: bold;
+  font-size: 28px;
+}
+
 p {
   font-family: var(--font-Lato);
   color: var(--white);
   text-transform: uppercase;
   font-size: 16px;
+}
+
+p.nws-paragraph {
+  color: var(--white);
+  font-size: 16px;
+  text-transform: none;
+}
+
+p.disclaimer {
+  font-size: 8pt;
+  text-transform: none;
+}
+
+p.disclaimer a {
+  color: white;
+  text-decoration: underline;
 }
 
 button {
@@ -73,7 +106,8 @@ button {
 /*header*/
 .screenshot {
   width: 60%;
-  margin: 30px auto;
+  padding: 0;
+  margin: 15px auto;
   display: block;
   
 }
@@ -257,20 +291,30 @@ a.save {
   align-items: center;
  }
 
- .social {
+ .follow__list {
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
+  top: 160px;
 }
 
 .twitter {
-  width: 35px;
+  width: 40px;
 }
 
-a.followtl {
+.follow__item {
+  list-style: none;
+}
+
+.follow__item a {
   color: var(--white);
   text-decoration: none;
-  
+}
+
+.bnr-richmond {
+  width: 100%;
+  margin: auto;
 }
 
 /* Buttons */
@@ -282,13 +326,13 @@ a.followtl {
 }
 
 button {
-border: 2px solid var(--black);
-background-color: transparent;
-height: 50px;
-padding: 0 25px;
-display: block;
-margin: auto;
-text-transform: uppercase;
+  border: 2px solid var(--black);
+  background-color: transparent;
+  height: 50px;
+  padding: 0 25px;
+  display: block;
+  margin: auto;
+  text-transform: uppercase;
 }
 
 button:hover {
@@ -304,3 +348,58 @@ button:hover {
   color: var(--white);
   border: 2px solid white;
   }
+
+  .button--richmond {
+    position: absolute;
+    bottom: 75px;
+    left: 138px;
+    color: var(--white);
+    border: 2px solid white;
+  }
+
+  .button--richmond:hover {
+    background-color: #25329a;
+    color: white;
+    border: none;
+  }
+
+  .button--subscribe {
+    color: var(--white);
+    border: 2px solid white;
+  }
+
+  .button--subscribe:hover {
+    background-color: var(--blue);
+    color: white;
+    border: none;
+  }
+
+
+  /* Form */
+
+  .newsletter {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 12px;
+    line-height: 27px;
+    text-align: center;
+  }
+
+  .container--newsletter {
+    position: relative;
+    display: block;
+    bottom: 315px;
+  }
+
+  .wb-tower {
+    width: 100%;
+    margin: auto;
+  }
+
+  label, input {
+    position: relative;
+    box-sizing: border-box;
+    padding: 14px 60px;
+    color: grey;
+}
