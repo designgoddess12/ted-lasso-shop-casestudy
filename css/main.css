@@ -19,6 +19,10 @@ html {
     color: white;
   }
 
+  img {
+    display: block;
+  }
+
   :root {
     --blue: #4379bd;
     --red: #ee2d24;
@@ -249,24 +253,32 @@ a.save {
 
    /* grids */
 
+   .believe {
+    max-width: 1500px;
+    max-height: 120px;
+    text-align: center;
+   }
+
    .grid-believe {
     background-color: var(--white);
-    text-align: center;
     margin: 80px 0;
 }
 
   .grid-believe__products {
     background-color: var(--white);
     padding: 20px 40px;
-    max-width: 1500px;
-    max-height: 120px;
     display: flex;
+    justify-content: center;
+    overflow-x: auto;
+}
+
+  .grid-believe__products::-webkit-scrollbar-button {
+    width: 0;
 }
 
 
-  .grid-believe__products .item {
-    width: 260px;
-    height: 260px;
+  .grid-believe__products.item {
+    background-size: cover;
 }
 
 
