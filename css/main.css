@@ -269,28 +269,45 @@ a.save {
     margin-right: 20px;
     padding: 10px 40px;
     width: 100%;
-    display: grid;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 1fr;
-    grid-column-gap: 20px;
-    grid-row-gap: 0px; 
     place-items: center;
     position: relative;
-    /*scroll-snap-type: x mandatory;
+    scroll-snap-type: x mandatory;
     scroll-snap-align: start;
     scroll-behavior: smooth;
     display: flex;
     flex-shrink: 0;
     gap: 40px;
-    overflow-x: auto;*/
+    overflow-x: auto;
 }
 
   .grid-believe__products.item {
     width: 100%;
     position: absolute;
     transition: all 0.5s;
-    
+}
+
+  .grid-title {
+    color: var(--black);
+    text-align: center;
+    font-family: var(--font-Warner);
+    margin-top: 40px;
+    padding: 0 20px;
+    text-transform: none;
+    line-height: 20px;
+    font-size: 16px;
+    letter-spacing: normal;
+}
+
+  .price {
+    color: var(--black);
+    text-align: center;
+    font-family: var(--font-Warner);
+    margin-top: 20px;
+    text-transform: none;
+    line-height: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: normal;
 }
 
   .btn {
@@ -318,7 +335,6 @@ a.save {
     top: 45%;
     right: 2%;
 }
-
 
    /* banners */
 
@@ -377,6 +393,10 @@ a.save {
   text-decoration: none;
 }
 
+.richmond {
+  margin-top: 500px;
+}
+
 .bnr-richmond {
   width: 100%;
   margin: auto;
@@ -396,7 +416,7 @@ button {
   height: 50px;
   padding: 0 25px;
   display: block;
-  margin: auto;
+  margin: 30px auto;
   text-transform: uppercase;
 }
 
@@ -416,7 +436,7 @@ button:hover {
 
 .button--richmond {
   position: absolute;
-  bottom: 75px;
+  bottom: 40px;
   left: 138px;
   color: var(--white);
   border: 2px solid white;
