@@ -253,7 +253,13 @@ a.save {
     background-color: var(--white);
     text-align: center;
     margin: 80px 0;
+}
 
+  .grid-believe__products {
+    background-color: var(--white);
+    padding: 20px 40px;
+    max-width: 1500px;
+    max-height: 120px;
 }
 
 
