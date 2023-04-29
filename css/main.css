@@ -260,7 +260,15 @@ a.save {
     padding: 20px 40px;
     max-width: 1500px;
     max-height: 120px;
+    display: flex;
 }
+
+
+  .grid-believe__products .item {
+    width: 260px;
+    height: 260px;
+}
+
 
 
    /* banners */
