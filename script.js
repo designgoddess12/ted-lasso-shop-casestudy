@@ -47,6 +47,6 @@ prevItem.addEventListener("click", function () {
     item.style.transform = `translateX(${100 * (indx - curItem)}%)`;
   });
 });
-Footer
-© 2023 GitHub, Inc.
-Footer navigation
+//Footer
+//© 2023 GitHub, Inc.
+//Footer navigation
