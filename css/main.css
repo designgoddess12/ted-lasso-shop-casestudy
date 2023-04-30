@@ -431,6 +431,54 @@ a.save {
     font-weight: bold;
     letter-spacing: normal;
 }
+
+  .lifestyle {
+    margin-top: 150px;
+    text-align: center;
+  }
+
+  .container--lifestyle {
+    width: 1080px;
+    height: 560px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 360px;
+    grid-template-rows: 1fr 280px;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+ }
+    
+  .tile-1 {
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-row-end: 3;
+    grid-column-end: 2;
+}
+
+  .tile-2 {
+    grid-row-start: 1;
+    grid-column-start: 2;
+    grid-row-end: 2;
+    grid-column-end: 3;
+  }
+
+  .tile-3 {
+    grid-row-start: 2;
+    grid-column-start: 2;
+    grid-row-end: 3;
+    grid-column-end: 3;
+    overflow: hidden;
+  }
+  
+  h2.tedlifestyle {
+    color: white;
+  }
+
+  .tedlifestyle {
+    position: relative;
+    top: 485px;
+    right: 220px;
+  }
   
    /* banners */
 
@@ -566,6 +614,14 @@ button:hover {
     color: var(--blue);
     border: none;
   }
+
+  .button--lifestyle {
+    position: relative;
+    top: 490px;
+    right: 400px;
+    color: var(--white);
+    border: 2px solid white;
+    }
 
   /* Form */
 
