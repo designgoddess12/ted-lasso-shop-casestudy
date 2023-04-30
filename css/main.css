@@ -336,6 +336,39 @@ a.save {
     right: 2%;
 }
 
+.richmond {
+  max-width: 1500px;
+  max-height: 120px;
+  text-align: center;
+ }
+
+ .grid-richmond {
+  background-color: var(--white);
+  margin: 60px 0;
+}
+
+.grid-richmond__products {
+  background-color: var(--white);
+  margin-right: 20px;
+  padding: 10px 40px;
+  width: 100%;
+  place-items: center;
+  position: relative;
+  scroll-snap-type: x mandatory;
+  scroll-snap-align: start;
+  scroll-behavior: smooth;
+  display: flex;
+  flex-shrink: 0;
+  gap: 40px;
+  overflow-x: auto;
+}
+
+.grid-richmond__products.item {
+  width: 100%;
+  position: absolute;
+  transition: all 0.5s;
+}
+
    /* banners */
 
 .container--signup {
